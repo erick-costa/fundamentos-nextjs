@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div>
             <Link href='/styled'>
-                Componente CSS Modular
+                Estiloso
             </Link>
         </div>
     )

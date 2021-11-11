@@ -1,11 +1,12 @@
 import styles from '../styles/Styled.module.css'
-import Link from 'next/link'
+import Layout from '../components/Layout'
 
 export default function Styled() {
     return (
-        <div className={styles.purple}>
-            <Link href='/'>Voltar</Link>
-            <h1>Estilo usando CSS Módulos</h1>
-        </div>
+        <Layout title='Exemplo de CSS Modularizado'>
+            <div className={styles.purple}>
+                <h1>Estilo usando CSS Módulos</h1>
+            </div>
+        </Layout>
     )
 }
