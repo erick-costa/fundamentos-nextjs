@@ -11,7 +11,7 @@ export default function State() {
     return (
         <Layout title='Componente com Estado'>
             <div>{number}</div>
-            <button onClick={inc}>increment</button>
+            <button onClick={inc}>incrementar</button>
         </Layout>
     )
 }
